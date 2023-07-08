@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     btnCalcHypotenuse.addEventListener("click", function(ev) {
         const leg1 = Number(inputLeg1.value);
         const leg2 = Number(inputLeg2.value);
-        const res = leg1 ** 2 + leg2 ** 2;
+        const res = Math.sqrt(leg1 ** 2 + leg2 ** 2);
         outputResultHypotenuse.innerHTML = res;
     })
 })
