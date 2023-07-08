@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 8px 0;
+}
+
+.mein-content {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #303030;
+}
+
+.mein-form {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+.mein-form label {
+    display: inline-block;
+}
+
+.mein-form input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 16px;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.mein-form input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

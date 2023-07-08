@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вычисление геометрических величин</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div class="mein-content">
+        <h1>Вычисление геометрических величин</h1>
+
+        <div class="triangle-area mein-form">
+            <h3>Площадь треугольника</h3>
+            <div>
+                <label for="triangle-side-input">Сторона: </label>
+                <input type="text" id="triangle-side-input">
+            </div>
+            <div>
+                <label for="triangle-height-input">Высота: </label>
+                <input type="text" id="triangle-height-input">
+            </div>
+            <div>
+                <button type="button" id="calculate-triangle-area-btn">Расчитать</button>
+            </div>
+            <div>
+                <span>Результат: </span>
+                <span id="triangle-area-result-output"></span>
+            </div>
+        </div>
+
+        <div class="circle-area mein-form">
+            <h3>Площадь кгруга</h3>
+            <div>
+                <label for="radius-input">Радиус: </label>
+                <input type="text" id="radius-input">
+            </div>
+            <div>
+                <button type="button" id="calculate-circle-area-btn">Расчитать</button>
+            </div>
+            <div>
+                <span>Результат: </span>
+                <span id="circle-area-result-output"></span>
+            </div>
+        </div>
+
+        <div class="hypotenuse mein-form">
+            <h3>Гипотенуза</h3>
+            <div>
+                <label for="leg-1-input">Первый катет: </label>
+                <input type="text" id="leg-1-input">
+            </div>
+            <div>
+                <label for="leg-2-input">Второй катет: </label>
+                <input type="text" id="leg-2-input">
+            </div>
+            <div>
+                <button type="button" id="calculate-hypotenuse-btn">Расчитать</button>
+            </div>
+            <div>
+                <span>Результат: </span>
+                <span id="hypotenuse-result-output"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
