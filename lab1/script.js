@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 
-    // Площадь треугольника
+    // РџР»РѕС‰Р°РґСЊ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
     const inputTriangleSide = document.querySelector("#triangle-side-input");
     const inputTriangleHeight = document.querySelector("#triangle-height-input");
     const outputResultTriangleArea = document.querySelector("#triangle-area-result-output");
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         outputResultTriangleArea.innerHTML = res;
     })
 
-    // Площадь круга
+    // РџР»РѕС‰Р°РґСЊ РєСЂСѓРіР°
     const inputRadius = document.querySelector("#radius-input");
     const outputResultCircleArea = document.querySelector("#circle-area-result-output");
     const btnCalcCircleArea = document.querySelector("#calculate-circle-area-btn");
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         outputResultCircleArea.innerHTML = res;
     })
 
-    // Гипотенуза
+    // Р“РёРїРѕС‚РµРЅСѓР·Р°
     const inputLeg1 = document.querySelector("#leg-1-input");
     const inputLeg2 = document.querySelector("#leg-2-input");
     const outputResultHypotenuse = document.querySelector("#hypotenuse-result-output");

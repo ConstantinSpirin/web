@@ -4,9 +4,92 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab-2</title>
+    <title>Вычисление геометрических величин</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./lab2/script.js"></script>
 </head>
 <body>
+    <div class="mein-content">
+        <h1>Вычисление геометрических величин</h1>
 
+        <div class="square-area mein-form">
+            <h3>Площадь квадрата</h3>
+            <div>
+                <label for="square-side-input">Сторона: </label>
+                <input type="text" id="square-side-input">
+            </div>
+            <div>
+                <button type="button" id="calculate-square-area-btn">Расчитать</button>
+            </div>
+            <div>
+                <span>Результат: </span>
+                <span id="square-area-result-output"></span>
+            </div>
+        </div>
+
+        <div class="triangle-area mein-form">
+            <h3>Площадь треугольника по координатам вершин</h3>
+            <div>
+                <label for="x-a-input">X<sub>a</sub></label>
+                <input type="text" id="x-a-input">
+            </div>
+            <div>
+                <label for="y-a-input">Y<sub>a</sub></label>
+                <input type="text" id="y-a-input">
+            </div>
+            <div>
+                <label for="x-b-input">X<sub>b</sub></label>
+                <input type="text" id="x-b-input">
+            </div>
+            <div>
+                <label for="y-b-input">Y<sub>b</sub></label>
+                <input type="text" id="y-b-input">
+            </div>
+            <div>
+                <label for="x-c-input">X<sub>c</sub></label>
+                <input type="text" id="x-c-input">
+            </div>
+            <div>
+                <label for="y-c-input">Y<sub>c</sub></label>
+                <input type="text" id="y-c-input">
+            </div>
+            <div>
+                <button type="button" id="calculate-triangle-area-btn">Расчитать</button>
+            </div>
+            <div>
+                <span>Результат: </span>
+                <span id="triangle-area-result-output"></span>
+            </div>
+        </div>
+
+        <div class="point-origin-distance mein-form">
+            <h3>Расстояние от точки до начала координат</h3>
+            <div>
+                <label for="x-p-input"></label>
+                <input type="text" id="x-p-input" value="0">
+            </div>
+            <div>
+                <label for="y-p-input"></label>
+                <input type="text" id="y-p-input" value="0">
+            </div>
+            <div>
+                <span>Результат: </span>
+                <span id="point-origin-distance-result-output"></span>
+            </div>
+        </div>
+
+        <div class="exchange mein-form">
+            <h3>Обмен значений двух переменных</h3>
+            <div>
+                <label for="input-1"></label>
+                <input type="text" id="input-1" value="0">
+            </div>
+            <div>
+                <label for="input-2"></label>
+                <input type="text" id="input-2" value="0">
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
